@@ -1,0 +1,25 @@
+<div *ngIf="project">
+  <div class="container text-center">
+    <div class="outter">
+      <div class="main-content">
+          <h1>{{project.name}}</h1>
+          <a href="{{project.projectUrl}}" target="_blank">
+            <img class="img-responsive img-thumbnail" src="{{project.imageUrl}}">
+          </a>
+          <hr>
+          <div class="desc">
+            <p>{{project.description}}</p>
+          </div>
+          <div *ngIf="project.disc">
+            <p class="disc">{{project.disc}}</p>
+            <a href="https://chrome.google.com/webstore/detail/cors-toggle/omcncfnpmcabckcddookmnajignpffnh?hl=en">Chrome</a>
+            |
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/">Firefox</a>
+          </div>
+          <br>
+          <h4>techs </h4>
+          <span *ngFor="let tech of project.techs"><span class="label label-success">{{tech}}</span></span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: url('assets/bg1_bluebg.jpg') no-repeat;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+    body {
+        background-size: cover;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 2000px) {
+    body {
+        background-size: cover;
+    }
+}

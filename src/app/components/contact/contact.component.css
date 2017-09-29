@@ -1,0 +1,130 @@
+.container{
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+h1 {
+    margin-top: 0;
+    letter-spacing: 8px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.6);
+}
+
+h2, p {
+    margin: 0;
+}
+
+.wrapper {
+    color: black;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.head {
+    padding-top: 15px;
+}
+
+.wrapper img {
+    /* margin-top: 10px; */
+    width: 103px;
+	height: 102px;
+}
+
+.tag, .div2 {
+    color: #47AAB3;
+}
+
+.divide {
+    color: black;
+}
+
+.contact{
+    text-align: left;
+}
+
+
+.infoList, .socialList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.infoList li, .socialList li {
+    padding: 4px 0;
+}
+
+.infoList{
+    padding-left: 20px;
+}
+
+.socialList{
+    padding-right: 20px;
+}
+
+.infoList img, .flag img, .social img {
+    width: 30px;
+    height: 30px;
+}
+
+.flag p {
+    display: inline;
+    padding-left: 5px;
+    letter-spacing: 2px;
+}
+
+.infoName {
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding: 0 0 0 10px;
+}
+
+.socialName {
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding: 0 15px 0 0;
+}
+
+.social {
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.socialList a {
+    color: black;
+}
+
+.socialList a:hover {
+    text-decoration: none;
+    color: #47AAB3;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .infoName {
+        font-size: 0.76em;
+        letter-spacing: 0;
+        padding: 0 0 0 2px;
+    }
+
+}
+
+@media only screen 
+and (min-width : 1224px) {
+    .info, .social {
+        width: 50%;
+    }
+
+    .contact{
+        display:flex;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+}

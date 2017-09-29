@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Pomodoro Clock",
+        "imageUrl": "assets/pomodoro_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/xrLKXJ/",
+        "description": "Using a simple design and jQuery DOM manipulation, we create this Pomodoro Clock to demonstrate the Pomodoro Technique, which consists on work intervals separated by short breaks.",
+        "techs":["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"]
+    },
+    {
+        "name": "WIKI Viewer",
+        "imageUrl": "assets/wiki_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/MmwyMo/",
+        "description": "A fun an interactive UI Design to consume the API's data. AJAX calls are made to wikipedia's end point, so that we can retrieve the first three results for each search.",
+        "techs":["HTML", "Animate.CSS", "AJAX", "REST API", "jQuery"]
+    },
+    {
+        "name": "Spotify Search UI",
+        "imageUrl": "assets/spoty_SC.jpg",
+        "projectUrl": "https://orangekulture.github.io/spotify/",
+        "description": "With help of Angular JS, we design and implement a User Search Interface for Spotify. Looking up favourite artists will render a list of all albums and tracks available to play within the Spotify app.",
+        "disc": "*important: Please download and use a CORS toggle for your browser, as Gitpages won't allow server side logic.",
+        "techs":["Angular", "REST API", "UI/UX Design", "Custom Graphics"]
+    },
+    {
+        "name": "DevChat",
+        "imageUrl": "assets/devchat_SC.jpg",
+        "projectUrl": "https://devchat-ja.herokuapp.com/",
+        "description": "With a backend coded from the ground up, we develop this chat interface with the use of web sockets. Data is persisted using session cookies and it allows for visitors to create new chat rooms.",
+        "techs":["NodeJS", "Express", "socket.io", "Facebook Authentication"]
+    },
+    {
+        "name": "MEAN Stack",
+        "imageUrl": "assets/mean_SC.jpg",
+        "projectUrl": "https://meanauth-ja.herokuapp.com",
+        "description": "MEAN stack development to showcase user registration and authentication. Visitors are able to create an account and with the use of sessions, jwt and mongo, we are able to persist the data.",
+        "techs":["Angular", "NodeJS", "Express", "JWT", "mongoDB"]
+    },
+    {
+        "name": "Simon Game",
+        "imageUrl": "assets/simon_SC.jpg",
+        "projectUrl": "https://codepen.io/counterculture/full/XaMRpX/",
+        "description": "A web app version of the well-known Simon Game. Custom graphics and audio make this interactive game difficult to beat!",
+        "techs":["HTML", "Javascript", "Photoshop", "Bootstrap"]
+    }
+]

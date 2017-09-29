@@ -1,0 +1,23 @@
+<div class="container text-center">
+  <h1>Sample Work</h1>
+  <h5>These are some of the projects from my portfolio</h5>
+  <div class="content">
+      <div class="row">
+          <div *ngFor="let item of items">
+            <div class="col-md-4">
+              <div class="project well">
+                  <img class="project-thumb img-thumbnail img-responsive" src="{{item.imageUrl}}" alt="{{item.name}}">
+                  <div class="middle">
+                    <div class="text text-center">
+                      <h3>{{item.name}}</h3>
+                      <a [routerLink]="['/',item.name]" class="btn btn-default details">Project Details</a>
+                    </div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
