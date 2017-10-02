@@ -1,0 +1,18 @@
+[
+    { "name": "Rocket League",
+      "description": "Soccer meets driving once again in the long-awaited, physics-based sequel to the beloved arena classic, Supersonic Acrobatic Rocket-Powered Battle-Cars!",
+      "imageUrl": "assets/img1.jpg"
+    },
+    { "name": "XCOM",
+      "description": "From the award-winning creators of civilization comes an action-strategy game about humanity’s last stand.",
+      "imageUrl": "assets/img4.jpg"
+    },
+    { "name": "Bulletstorm",
+      "description": "Set in a futuristic utopia, an elite peacekeeping force thwarts the rumblings of civil war.",
+      "imageUrl": "assets/img3.jpg"
+    },
+    { "name": "Supersonic Acrobatic Rocket-Powered Battle-Cars",
+      "description": "Play soccer with rocket powered vehicles in this high-octane, physics-based sports game!",
+      "imageUrl": "assets/img2.jpg"
+    }
+]
